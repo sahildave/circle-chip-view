@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ccv_root_height">36dp</dimen>
+    <dimen name="ccv_label_height">32dp</dimen>
+    <dimen name="ccv_label_radius">18dp</dimen>
+    <dimen name="ccv_label_padding_default">16dp</dimen>
+    <dimen name="ccv_label_padding_left">12dp</dimen>
+</resources>
