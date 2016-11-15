@@ -2,11 +2,8 @@ package xyz.sahildave.circlechipview;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.graphics.Paint;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
-import android.graphics.drawable.ShapeDrawable;
-import android.text.TextPaint;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.Log;

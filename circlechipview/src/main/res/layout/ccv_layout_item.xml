@@ -21,13 +21,6 @@
         tools:text="Test"
     />
 
-    <!--<xyz.sahildave.circlechipview.BezelImageView-->
-        <!--android:layout_width="36dp"-->
-        <!--android:layout_height="36dp"-->
-        <!--android:background="@android:color/white"-->
-        <!--app:ccv_mask_drawable="@drawable/ccv_circle_mask"-->
-    <!--/>-->
-
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/cvv_icon"
         android:layout_width="@dimen/ccv_root_height"
