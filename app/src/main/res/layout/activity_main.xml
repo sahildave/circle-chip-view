@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:ccv_label_text="Bayern Munich"
-        app:ccv_label_bg_color="#d4d4d4"
+        app:ccv_label_bg_color="#F4F4F4"
         app:ccv_label_text_color="#000000"
         app:ccv_icon_src="@drawable/bayern_munich"
     />
@@ -27,7 +27,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:ccv_label_text="Bayern Munich 2"
-        app:ccv_label_bg_color="#d4d4d4"
-        app:ccv_label_text_color="#000000"
+        app:ccv_icon_src="@drawable/bayern_munich"
+    />
+
+    <xyz.sahildave.circlechipview.CircleChipItem
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:ccv_label_text="Bayern Munich 3"
+        app:ccv_label_bg_color="#00BCD4"
+        app:ccv_label_text_color="#FFFFFF"
     />
 </LinearLayout>

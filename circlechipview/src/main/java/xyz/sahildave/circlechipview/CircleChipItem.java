@@ -76,6 +76,7 @@ public class CircleChipItem extends FrameLayout {
         shape.setColor(mLabelBackgroundColor);
         mLabelView.setBackgroundDrawable(shape);
         mLabelView.setText(mLabelText);
+        mLabelView.setTextColor(mLabelTextColor);
 
         if (mIconDrawable != null) {
             mIcon.setImageDrawable(mIconDrawable);
@@ -89,7 +90,7 @@ public class CircleChipItem extends FrameLayout {
     }
 
     private int getDefaultLabelTextColor(Context context) {
-        return CircleChipUtil.getThemeColor(context, android.R.attr.textColorPrimary);
+        return CircleChipUtil.getThemeColor(context, android.R.attr.textColorSecondary);
     }
 
     public ImageView getIcon() {
