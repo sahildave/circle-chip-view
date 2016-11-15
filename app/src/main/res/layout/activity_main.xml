@@ -1,40 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="xyz.sahildave.circlechipviewdemo.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
-
     <xyz.sahildave.circlechipview.CircleChipItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:ccv_label_text="Bayern Munich"
+        app:ccv_icon_src="@drawable/bayern_munich"
         app:ccv_label_bg_color="#F4F4F4"
-        app:ccv_label_text_color="#000000"
-        app:ccv_icon_src="@drawable/bayern_munich"
-    />
+        app:ccv_label_text="Bayern Munich"
+        app:ccv_label_text_color="#000000" />
 
     <xyz.sahildave.circlechipview.CircleChipItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:ccv_label_text="Bayern Munich 2"
         app:ccv_icon_src="@drawable/bayern_munich"
-    />
+        app:ccv_label_text="Bayern Munich 2" />
 
     <xyz.sahildave.circlechipview.CircleChipItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:ccv_label_text="Bayern Munich 3"
         app:ccv_label_bg_color="#00BCD4"
-        app:ccv_label_text_color="#FFFFFF"
-    />
+        app:ccv_label_text="Bayern Munich 3"
+        app:ccv_label_text_color="#FFFFFF" />
 </LinearLayout>
